@@ -1,6 +1,6 @@
 const router = require("express").Router();
 
-const RoomModel = require("../models/Room.model");
+const RoomModel = require("../models/room.models");
 
 //ITERATION 1
 

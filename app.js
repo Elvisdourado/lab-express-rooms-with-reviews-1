@@ -9,7 +9,8 @@ db();
 
 app.use(express.json());
 
-const roomRouter = require("./routes/room.router");
+const roomRouter = require("./routes/room.routes");
+const userRouter = require("./routes/user.routes");
 
 app.use("/", roomRouter);
 
